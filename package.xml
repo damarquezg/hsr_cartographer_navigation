@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hsr_cartographer_navigation</name>
+  <version>0.0.1</version>
+  <description>package for autonomous navigation of the HSR using Google Cartographer</description>
+  <maintainer email="systems-team@oxfordrobotics.institute">ORI Systems Team</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>cartographer_ros</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <test_depend>roslaunch</test_depend>
+
+  <export>
+  </export>
+</package>
